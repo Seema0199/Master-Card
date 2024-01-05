@@ -1,0 +1,98 @@
+
+* {
+       margin: 0;
+       padding: 0;
+     }
+
+     .wrapper {
+       width: 100vw;
+       height: 100vh;
+     }
+
+     .start{
+       background-color: black;
+     }
+
+     .circle1 {
+       position: fixed;
+       top: 15%;
+       left: 30%;
+       width: 13em;
+       height: 13em;
+       border-radius: 50%;
+       box-shadow: 700 50px #FFFFFF;
+       background: linear-gradient(-25deg, #FFFFFF, #d00e79);
+       /* animation: circle1Animate 15s infinite; */
+     }
+
+     .circle2 {
+       position: absolute;
+       bottom: 30%;
+       right: 40%;
+       width: 13em;
+       height: 13em;
+       border-radius: 50%;
+       box-shadow: 700 50px #FFFFFF;
+       background:  linear-gradient(25deg,  #FFFFFF, #d00e79);
+       animation: circle2Animate 8s infinite;
+     }
+
+
+     .card {
+       position: absolute;
+       top: 45%;
+       left: 45%;
+       translate: -50% -50%;
+       height: 200px;
+       width: 300px;
+       border: 2px solid #ffffff30;
+       /* display: flex; */
+       /* flex-direction: column;
+       align-items: center; */
+      
+       justify-content: space-evenly;
+       background: #ffffff1a;
+       backdrop-filter: blur(25px);
+       border-radius: 15px;
+       color: #ffffff;
+       padding: 20px 50px;
+     }
+
+     .card-section{
+     display: flex;
+     gap:5px
+
+     }
+
+     .chip{
+       position: relative;
+       left: 90px;
+     }
+
+     .card-num{
+       margin-top:15px;
+       margin-bottom: 15px;
+   
+
+     }
+      
+     .name{
+       display: flex;
+       gap:30px;
+       margin-top: 20px;
+      
+       
+       
+     }
+
+     .post{
+       position: relative;
+       left:70px;
+       top:-5px;
+       
+     }
+/* 
+     h3{
+       position: relative;
+       bottom:5px;
+     } */
